@@ -1,0 +1,97 @@
+:root {
+  --main-bg-color: #40435a;
+  --font-color: #f2e9e4;
+}
+
+body,
+html {
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 2em;
+}
+
+.section {
+  text-align: center;
+  padding: 5rem 7rem;
+}
+
+.section-dark {
+  background: var(--main-bg-color);
+  color: var(--font-color);
+}
+
+.section-light {
+  background: var(--font-color);
+  color: var(--main-bg-color);
+}
+
+.img-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+.border {
+  background: var(--main-bg-color);
+  color: var(--font-color);
+  padding: 1rem 2rem;
+  border-radius: 2rem 0.5rem 2rem 0.5rem;
+  box-shadow: 0 0 0.2rem #1c1c1c;
+}
+
+.background-img-1,
+.background-img-2,
+.background-img-3,
+.background-img-4,
+.background-img-5,
+.background-img-6 {
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 40em;
+}
+
+.background-img-1 {
+  background-image: url("./images/img1.webp");
+  height: 100%;
+}
+
+.background-img-2 {
+  background-image: url("./images/img2.webp");
+}
+
+.background-img-3 {
+  background-image: url("./images/img3.webp");
+}
+
+.background-img-4 {
+  background-image: url("./images/img4.webp");
+}
+
+.background-img-5 {
+  background-image: url("./images/img5.webp");
+}
+
+.background-img-6 {
+  background-image: url("./images/img6.webp");
+}
+
+@media (max-width: 568px) {
+  .background-img-1,
+  .background-img-2,
+  .background-img-3,
+  .background-img-4,
+  .background-img-5,
+  .background-img-6 {
+    background-attachment: scroll;
+  }
+}
