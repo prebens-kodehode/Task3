@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: #40435a;
+  --main-bg-color: #36394c;
   --font-color: #f2e9e4;
 }
 
@@ -42,7 +42,7 @@ html {
   color: var(--font-color);
   padding: 1rem 2rem;
   border-radius: 2rem 0.5rem 2rem 0.5rem;
-  box-shadow: 0 0 0.2rem #1c1c1c;
+  box-shadow: 0 0 0.5rem #1c1c1c;
 }
 
 .background-img-1,
